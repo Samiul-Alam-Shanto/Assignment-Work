@@ -26,7 +26,9 @@
      border-radius: 10px;
      padding: 15px 30px;
 }
-
+.btn-primary:hover{
+    background-color: limegreen;
+}
 
 /* header styles */
 .hero{
@@ -66,7 +68,6 @@
 }
 
 /* action section styles */
-
 
 .action{
     display: flex;
@@ -121,4 +122,35 @@
 .count-abbreviation{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
+
+/* get in touch styles */
+
+.get-in-touch{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    gap: 100px;
+    align-items: center;
+    padding: 70px 0px;
+}
+.touch-text{
+    font-size: 100px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+form input[type="email"] , input[type="text"] , textarea{
+    padding: 20px 250px 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;   
 }
