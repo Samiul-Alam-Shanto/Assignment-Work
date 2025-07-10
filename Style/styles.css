@@ -6,7 +6,6 @@
 }
 
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -17,7 +16,14 @@
 .primary-color{
     color: rgba(78, 71, 255, 1);
 }
-
+.btn-primary{
+     background-color: #4E47FF;
+     color: #FFFFFF;
+     font-family: 'raleway';
+     font-weight: bold;
+     border: none;
+     border-radius: 10px;
+}
 
 
 /* header styles */
@@ -25,6 +31,7 @@
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 120px;
 }
 /* navbar style */
 
@@ -36,9 +43,26 @@
 }
 .logo{
     
+    font-size: 34px;
+    font-weight: bolder;
 }
+.hero .btn-primary{
+    padding: 5px 15px;
+}
+/* banner Style */
 
 .banner-container{
     padding: 150px 250px;
     text-align: center;
+}
+
+.banner-title{
+    font-family: 'raleway',sans-serif;
+    color: #252432;
+    font-size: 62px;
+    font-weight: bold;
+}
+.banner-container .btn-primary{
+    padding: 10px 20px;
+    margin-top: 40px;
 }
