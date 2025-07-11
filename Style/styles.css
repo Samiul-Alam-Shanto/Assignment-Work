@@ -94,7 +94,7 @@
     border-radius: 30px;
 }
 
-/* Productive users styles */
+/* Productive users section styles */
 
 .productive-users{
     background-color: rgba(78, 71, 255, 0.1);
@@ -124,7 +124,57 @@
     font-size: 20px;
 }
 
-/* get in touch styles */
+/* users-feedback section styles */
+.users-feedback{
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+.feedback-cards{
+    display: flex;
+    text-align: left;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.card{
+    border: 1px solid #d1d0d4;
+    border-radius: 10px;
+    padding:24px;
+}
+.card img{
+    margin-bottom: 30px ;
+}
+
+.card-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 18px;
+    color: #252432;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user img{
+    margin: 0px;
+    border-radius: 50%;
+}
+
+/* get in touch section styles */
 
 .get-in-touch{
     display: flex;
