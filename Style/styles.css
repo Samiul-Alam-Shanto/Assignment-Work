@@ -46,9 +46,9 @@
 
 }
 .logo{
-    
+    font-family: sans-serif;
     font-size: 34px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 /* banner Style */
@@ -153,4 +153,34 @@ form input[type="email"] , input[type="text"] , textarea{
     padding: 20px 250px 20px 10px;
     border-radius: 10px;
     border: 1px solid #D6DDED;   
+}
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    padding: 100px 450px;
+    border-top: 1px solid #D6DDED;
+}
+
+.footer-logo{
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+.footer-text{
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+.footer-menu a{
+    text-decoration: none;  
+    color: #8987A1;
+}
+.footer-menu a:hover{
+    color:#4E47FF;
+}
+.footer-menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
